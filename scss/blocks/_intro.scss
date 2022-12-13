@@ -1,0 +1,99 @@
+.intro {
+    background: #FAFAFA;
+    padding-bottom: 80px;
+
+    &__first {
+        padding-top: 80px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 64px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+    }
+
+    &__second {
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    &__boxes {
+        background: #FFFFFF;
+        border-radius: 5px;
+        width: 255px;
+        height: 395px;
+    }
+
+    &__names {
+        margin-top: 25px;
+        margin-left: 24px;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: -0.15625px;
+        color: #9597A5;
+    }
+
+    &__title {
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 207px;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.285714px;
+        color: #2D314D;
+    }
+
+    &__texts-first {
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 207px;
+        font-size: 13px;
+        line-height: 18px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.203125px;
+        color: #9597A5;
+    }
+
+    &__texts-second {
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 197px;
+        font-size: 13px;
+        line-height: 18px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.203125px;
+        color: #9597A5;
+    }
+
+    &__texts-third {
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 197px;
+        font-size: 13px;
+        line-height: 18px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.203125px;
+        color: #9597A5;
+    }
+
+    &__texts-fourth {
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 207px;
+        font-size: 13px;
+        line-height: 18px;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.203125px;
+        color: #9597A5;
+    }
+}

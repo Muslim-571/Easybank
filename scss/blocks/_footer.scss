@@ -1,0 +1,96 @@
+.footer {
+    background: #2D314D;
+    padding-bottom: 38px;
+
+    &__container {
+        padding-top: 48px;
+        display: flex;
+    }
+
+    &__first {
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    &__ul {
+        margin-right: 320px;
+        display: flex;
+        gap: 200px;
+    }
+
+    &__iconics {
+        color: #FFFFFF;
+        font-family: 'Public Sans', sans-serif;
+
+        &:active {
+            color: #33D35E;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__links {
+        color: #FFFFFF;
+        display: flex;
+
+        &:active {
+            color: #33D35E;
+        }
+    }
+
+    &__ul-first {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__iconics-first {
+        color: #FFFFFF;
+        font-family: 'Public Sans', sans-serif;
+
+        &:active {
+            color: #33D35E;
+        }
+
+    }
+
+    &__ul-second {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__iconics-second {
+        color: #FFFFFF;
+        font-family: 'Public Sans', sans-serif;
+
+        &:active {
+            color: #33D35E;
+        }
+
+    }
+
+    &__link-b {
+        transition: 40ms ease;
+        font-style: normal;
+        font-weight: 500;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-radius: 22px;
+        padding: 10px 25px;
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+
+        &:active {
+            transition: 40ms ease;
+            box-shadow: #33D35E 0px 2px 4px 0px, #2AB6D9 0px 2px 16px 0px;
+        }
+    }
+}

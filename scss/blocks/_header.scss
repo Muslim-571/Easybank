@@ -1,0 +1,98 @@
+.header {
+    top: 0;
+    z-index: 1001;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: fixed;
+    transition: 280ms ease;
+
+    &:hover {
+        box-shadow: #33D35E 0px 6px 12px -2px, #2AB6D9 0px 3px 7px -3px;
+        transition: 280ms ease;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__first {
+        margin-right: auto;
+    }
+
+    &__logo-img {
+        transition: 40ms ease;
+
+        &:active {
+            opacity: 0.4;
+            transition: 40ms ease;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 420px;
+        gap: 30px;
+    }
+
+    &__links {
+        position: relative;
+        z-index: 1;
+        font-size: 14px;
+        line-height: 16px;
+        color: #9597A5;
+        padding: 30px 0;
+        font-family: 'Public Sans', sans-serif;
+        letter-spacing: -0.107692px;
+        display: inline-block;
+        transition: 280ms ease;
+
+        &::before {
+            top: 95%;
+            background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+            position: absolute;
+            z-index: 1;
+            display: none;
+            content: '';
+            width: 100%;
+            height: 4px;
+            transition: 280ms ease;
+        }
+    }
+
+    &__links:hover {
+        color: #2D314D;
+        font-weight: bold;
+        transition: 40ms ease;
+   
+      
+
+        &::before {
+            display: block;
+            font-family: 'Public Sans', sans-serif;
+            transition: 40ms ease;
+        }
+    }
+
+    &__link-a {
+        transition: 40ms ease;
+        font-style: normal;
+        font-weight: 500;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-radius: 22px;
+        padding: 10px 25px;
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+
+        &:active {
+            mix-blend-mode: normal;
+            transition: 40ms ease;
+            box-shadow: #33D35E 0px 6px 12px -2px, #2AB6D9 0px 3px 7px -3px;
+        }
+    }
+}
